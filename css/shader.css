@@ -31,7 +31,7 @@ body {background: #4D4646 50% 50% no-repeat; background-size: cover; -webkit-fon
 }
 
 .align-item {
-    width: 25%;
+    width: 30%;
 }
 
 .card-img-top {
@@ -74,7 +74,8 @@ li.center{
 and (min-device-width : 375px) 
 and (max-device-width : 667px) { 
     .align-item{
-        width: 100%;
+        width: 80%;
+        height: auto;
         
     }
 }
