@@ -75,7 +75,7 @@ li.center{
 and (min-device-width : 375px) 
 and (max-device-width : 667px) { 
     .align-item{
-        width: 60%;
+        width: 100%;
         
     }
 }
