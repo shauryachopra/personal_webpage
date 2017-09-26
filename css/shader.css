@@ -37,7 +37,8 @@ body {background: #4D4646 50% 50% no-repeat; background-size: cover; -webkit-fon
 }
 
 .align-item {
-    max-width: 50%;
+    width: 30%;
+    max-width: 70%;
     margin-top: 15%;
     margin-bottom: auto;
 }
@@ -51,7 +52,8 @@ body {background: #4D4646 50% 50% no-repeat; background-size: cover; -webkit-fon
 }
 
 .card {
-    max-height: 50%;    
+    max-width: 40%;    
+    max-height: auto;
 }
 
 .new {  
