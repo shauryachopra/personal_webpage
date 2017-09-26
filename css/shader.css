@@ -73,11 +73,11 @@ li.center{
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) { 
-    body {background: #4D4646 100% 100% no-repeat; background-size: cover; -webkit-font-smoothing: antialiased; height: 100%;}
+    body {background: #4D4646 100% 100% no-repeat; background-size: cover; -webkit-font-smoothing: antialiased; height: 100%; font-size:5px}
     
     .align-item{
-        height: 80%;
-        width: auto;
+        width: 80%;
+        height: auto;
         
     }
 }
