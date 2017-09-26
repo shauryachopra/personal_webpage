@@ -8,15 +8,23 @@ body {background: #4D4646 50% 50% no-repeat; background-size: cover; -webkit-fon
 .content {background: rgba(0, 255, 255, 0.3); position: relative; width: 25%; height: 50%; padding: 40px 0;}
 .background-container {position: fixed; left: 0; right: 0; top: 0; bottom: 0;} 
 
+.card-title {
+    font-size: 3vmin;
+}
+.card-subtitle {
+    font-size: 2.5vmin;
+}
 .card {
     display: flex;
     margin: 0 auto; /* Added */
     float: none; /* Added */
+        
+
 }
 
 .card-text{
     word-wrap: break-word;
-    font-size:2vh;
+    font-size:2vmin;
 }
 .content {background: rgba(0, 0, 0, 0); 
     position: absolute;
