@@ -16,6 +16,7 @@ body {background: #4D4646 50% 50% no-repeat; background-size: cover; -webkit-fon
 
 .card-text{
     word-wrap: break-word;
+    font-size:2vh;
 }
 .content {background: rgba(0, 0, 0, 0); 
     position: absolute;
@@ -73,7 +74,7 @@ li.center{
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) { 
-    body {background: #4D4646 100% 100% no-repeat; background-size: cover; -webkit-font-smoothing: antialiased; height: 100%; font-size:50px;}
+    body {background: #4D4646 100% 100% no-repeat; background-size: cover; -webkit-font-smoothing: antialiased; height: 100%;}
     
     .align-item{
         width: 80%;
