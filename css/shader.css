@@ -18,7 +18,7 @@ body {background: #4D4646 50% 50% no-repeat; background-size: cover; -webkit-fon
     display: flex;
     margin: 0 auto; /* Added */
     float: none; /* Added */
-        
+
 
 }
 
@@ -78,16 +78,24 @@ li.center{
     align-items: center; /* align vertical */
     background: #000000;
 }
-/*
+
 @media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) { 
-    body {background: #4D4646 100% 100% no-repeat; background-size: cover; -webkit-font-smoothing: antialiased; height: 100%;}
-    
-    .align-item{
-        width: 80%;
-        height: auto;
-        
-    }
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px) { 
+        .card-title {
+            font-size: 6vmin;
+        }
+        .card-subtitle {
+            font-size: 5vmin;
+        }
+        .card-text{
+            word-wrap: break-word;
+            font-size:3vmin;
+        }
+
+        .align-item{
+            width: 80%;
+            height: auto;
+
+        }
 }
-*/
